@@ -1,0 +1,3 @@
+theme = "Cyberpop"
+[params]
+  date_fmt = "02 Jan, 2006"

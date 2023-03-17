@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="container">
+  <div id="alert">
+    <div id="alert-con">
+      {{ .Content }}
+    </div>
+  </div>
+  <h1>Find random software:</h1>
+  <div class="ls-container">
+  {{ range where .Site.Pages "Section" "software" }}
+    {{ range .Pages }}
+      <a class="ls-item" href="{{ .Permalink }}">{{ .Title }}<i>{{ .Date.Format .Site.Params.date_fmt }}</i></a>
+    {{ end }}
+  {{ end }}
+  </div>
+</div>
+{{ end }}

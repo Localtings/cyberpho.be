@@ -1,0 +1,4 @@
+baseURL = 'http://cyberpho.be/'
+languageCode = 'en-us'
+title = 'Cyberphobe'
+theme = 'Cyberpop'

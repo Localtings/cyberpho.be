@@ -1,0 +1,157 @@
+:root {
+  --bg: #f8fae0;
+  --p: #3c3c3c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Source Code Pro', monospace;
+  line-height: 2;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--p);
+}
+
+body {
+  background-color: var(--bg);
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 4px solid var(--p);
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+#splash {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#splash:after {
+  content: "_";
+  opacity: 0;
+  animation: cursor-blink 0.7s step-end infinite;
+}
+
+@keyframes cursor-blink {
+  from, to {
+    opacity: 0
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+h1:before {
+  content: "~$: ";
+}
+
+.container {
+  display: block;
+  max-width: 1500px;
+  width: 70%;
+  /* setting left and right margin equally */
+  margin: 0 auto;
+}
+
+#footer {
+  margin-top: 100px;
+  text-align: center;
+}
+
+#pn-prev {
+  float: left;
+}
+
+#pn-right {
+  float: right;
+}
+
+.pn-btn {
+  display: inline-block;
+  width: 100%;
+  height: 110px;
+  max-width: 180px;
+  border: 2px solid var(--p);
+  padding: 0 5px;
+  margin-bottom: 7px;
+}
+
+.pn-btn p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 580px) {
+  #pn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .pn-btn {
+    max-width: 580px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container {
+    width: 95%;
+    padding: 0 7px;
+  }
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+#alert {
+  padding: 7px;
+  border: 2px solid var(--p);
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.ls-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.ls-item {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-bottom: 3px solid var(--p);
+  float: left;
+}
+
+.ls-item i {
+  float: right;
+}
+
+.ls-item:before {
+  content: ">  ";
+  color: var(--p);
+}
