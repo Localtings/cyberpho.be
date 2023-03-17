@@ -1,7 +1,7 @@
 ---
 title: "KD Quotes"
 date: 2023-03-17T17:52:46+07:00
-draft: true
+draft: false
 ---
 
 Hey Assault Cubers,
