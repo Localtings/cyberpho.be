@@ -6,7 +6,7 @@ draft: false
 
 Hey Assault Cubers,
 
-Are you tired of the casual boring kill or death messages such as: "you shredded blah blah blah", "you sprayed this man", "you busted that man". Do you want something more funny, more hilarious or "hardcore". Well, **K**ill and **D**eaths **Quotes** fixes that for you! Get a load of this boring kill and deaths messages and replace em' with some real stuff!
+Are you tired of the casual boring kill or death messages such as: "you shredded blah blah blah", "you sprayed this man", "you busted that man". Do you want something more funny, more "hardcore" or a bit controversial? Well, KD Quotes does just that - get a load of this boring kill or deaths nofitications and replace em' with some real funny quotes!
 
 Download here!
 
