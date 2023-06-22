@@ -12,7 +12,3 @@ Are you tired of the casual boring kill or death messages such as: "you shredded
 
 Download here!
 [KD_Quotes.zip](/bin/KD_Quotes.zip)
-
-What the mod looks like in-game:
-
-![kdq1](/i/kdq1.png)
