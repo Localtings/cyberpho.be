@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Softwares on Cyberphobe</title>
+    <link>http://cyberpho.be/software/</link>
+    <description>Recent content in Softwares on Cyberphobe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Apr 2023 21:40:47 +0700</lastBuildDate><atom:link href="http://cyberpho.be/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CMODS</title>
+      <link>http://cyberpho.be/software/cmods/</link>
+      <pubDate>Fri, 14 Apr 2023 21:40:47 +0700</pubDate>
+      
+      <guid>http://cyberpho.be/software/cmods/</guid>
+      <description>Hey Assault Cubers,
+CMODS is a custom Assault Cube mod loader; made exclusively to load all of the Assault Cube mods I&amp;rsquo;ve made.
+Installation is simple:
+Download the zip file below Extract it to bin_win32 inside Assault Cube&amp;rsquo;s root directory; a prompt will pop up, asking you whether or not to replace &amp;ldquo;SDL.dll&amp;rdquo;, choose yes Create a new folder called &amp;ldquo;cmods&amp;rdquo; inside Assault Cube&amp;rsquo;s root directory (not the bin_win32 folder you&amp;rsquo;ve just been to) and put all of your .</description>
+    </item>
+    
+    <item>
+      <title>BHop</title>
+      <link>http://cyberpho.be/software/bhop/</link>
+      <pubDate>Sun, 19 Mar 2023 13:34:45 +0700</pubDate>
+      
+      <guid>http://cyberpho.be/software/bhop/</guid>
+      <description>Hey Assault Cubers,
+Are you tired of the casual boring walking experience in Assault Cube? Do you want to Bunny Hop like how they do it in CS:GO, but isn&amp;rsquo;t motivated enough to press the spacebar all the time? Well, BHop does it all for you - just move around and BHop will automatically, repeatedly jump for you!
+BHop is safe to use in most cases in multiplayer mode.
+Download here: BHop.</description>
+    </item>
+    
+    <item>
+      <title>KD Quotes</title>
+      <link>http://cyberpho.be/software/kd-quotes/</link>
+      <pubDate>Fri, 17 Mar 2023 17:52:46 +0700</pubDate>
+      
+      <guid>http://cyberpho.be/software/kd-quotes/</guid>
+      <description>Hey Assault Cubers,
+Are you tired of the casual boring kill or death messages such as: &amp;ldquo;you shredded blah blah blah&amp;rdquo;, &amp;ldquo;you sprayed this man&amp;rdquo;, &amp;ldquo;you busted that man&amp;rdquo;. Do you want something more funny, more &amp;ldquo;hardcore&amp;rdquo; or a bit controversial? Well, KD Quotes does just that - get a load of this boring kill or deaths notifications and replace em&amp;rsquo; with some real funny quotes!
+KD Quotes is safe to use in multiplayer mode.</description>
+    </item>
+    
+  </channel>
+</rss>
