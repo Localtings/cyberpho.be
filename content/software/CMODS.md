@@ -14,4 +14,9 @@ Installation is simple:
 2. Extract it to bin_win32 inside Assault Cube's root directory; a prompt will pop up, asking you whether or not to replace "SDL.dll", choose yes
 3. Create a new folder called "cmods" inside Assault Cube's root directory (not the bin_win32 folder you've just been to) and put all of your .dll mods files there
 
-Download here: [CMODS.zip](/bin/CMODS.zip)
+Download through ssh:
+
+scp anonymous@server.cyberpho.be:~/files/CMODS.zip [Your directory]
+
+Any password is valid :P
+Remember to run the command in PowerShell if you are on Windows.

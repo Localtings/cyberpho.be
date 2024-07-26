@@ -10,5 +10,9 @@ Are you tired of the casual boring kill or death messages such as: "you shredded
 
 **KD Quotes is safe to use in multiplayer mode.**
 
-Download here!
-[KD_Quotes.zip](/bin/KD_Quotes.zip)
+Download through ssh:
+
+scp anonymous@server.cyberpho.be:~/files/KD_Quotes.zip [Your directory]
+
+Any password is valid :P
+Remember to run the command in PowerShell if you are on Windows.
