@@ -10,9 +10,4 @@ Are you tired of the casual boring walking experience in Assault Cube? Do you wa
 
 **BHop is safe to use *in most cases* in multiplayer mode.**
 
-Download through ssh:
-
-scp anonymous@server.cyberpho.be:~/files/BHop.zip [Your directory]
-
-Any password is valid :P
-Remember to run the command in PowerShell if you are on Windows.
+Download at: http://server.cyberpho.be/cyberphobe-files/
