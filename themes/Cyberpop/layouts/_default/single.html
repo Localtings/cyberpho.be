@@ -1,7 +1,9 @@
 {{ define "main" }}
 <div class="container">
-  <i>{{ .Date.Format .Site.Params.date_fmt }}</i>
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
+  <div id="content" class="fit">
+    <i>{{ .Date.Format .Site.Params.date_fmt }}</i>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </div>
 </div>
 {{ end }}

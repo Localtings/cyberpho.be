@@ -58,64 +58,57 @@ h1:before {
   content: "~$: ";
 }
 
-.container {
-  display: block;
-  max-width: 1500px;
+.fit {
   width: 70%;
-  /* setting left and right margin equally */
-  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#content
+{
+  overflow-wrap: break-word;
 }
 
 #footer {
+  display: flex;
+  justify-content: center;
+  align-items: normal;
   margin-top: 100px;
-  text-align: center;
 }
 
-#pn-prev {
-  float: left;
-}
-
-#pn-right {
-  float: right;
+#pn {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
 .pn-btn {
-  display: inline-block;
-  width: 100%;
-  height: 110px;
-  max-width: 180px;
+  display: flex;
   border: 2px solid var(--p);
   padding: 0 5px;
-  margin-bottom: 7px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 200px;
 }
 
 .pn-btn p {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  margin: 3px 0;
 }
 
 @media screen and (max-width: 580px) {
-  #pn {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
   .pn-btn {
-    max-width: 580px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  img {
     width: 100%;
-    height: auto;
   }
 
-  .container {
-    width: 95%;
-    padding: 0 7px;
+  #pn {
+    justify-content: center;
+    gap: 2px;
   }
 }
 

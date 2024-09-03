@@ -59,11 +59,10 @@ h1:before {
 }
 
 .container {
-  display: block;
-  max-width: 1500px;
-  width: 70%;
-  /* setting left and right margin equally */
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #footer {
