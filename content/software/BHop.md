@@ -10,4 +10,4 @@ Are you tired of the casual boring walking experience in Assault Cube? Do you wa
 
 **BHop is safe to use *in most cases* in multiplayer mode.**
 
-Download at: http://server.cyberpho.be/cyberphobe-files/
+Download at: https://server.cyberpho.be/BHop.zip
