@@ -10,4 +10,4 @@ Are you tired of the casual boring kill or death messages such as: "you shredded
 
 **KD Quotes is safe to use in multiplayer mode.**
 
-Download at: https://server.cyberpho.be/KD_Quotes.zip
+Download at: https://server.cyberpho.be/download?file=KD_Quotes.zip
